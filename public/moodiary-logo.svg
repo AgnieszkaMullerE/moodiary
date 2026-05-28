@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 240" width="680" height="240">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+      .logo-text {
+        font-family: 'Yellowtail', cursive;
+        font-size: 118px;
+        fill: #111111;
+        letter-spacing: -1px;
+        paint-order: stroke fill;
+        stroke: #111111;
+        stroke-width: 2px;
+        stroke-linejoin: round;
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  <text class="logo-text" x="340" y="168" text-anchor="middle">Moodiary</text>
+</svg>

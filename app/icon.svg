@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+      .favicon-text {
+        font-family: 'Yellowtail', cursive;
+        font-size: 58px;
+        fill: #111111;
+        paint-order: stroke fill;
+        stroke: #111111;
+        stroke-width: 1.5px;
+        stroke-linejoin: round;
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#FAF7F2"/>
+  <text class="favicon-text" x="32" y="52" text-anchor="middle">M</text>
+</svg>
