@@ -64,7 +64,12 @@ export default function EntriesPage() {
 
       {entries.length === 0 ? (
         <div className="flex flex-col items-center justify-center py-20 gap-4 text-center">
-          <span className="text-5xl">📖</span>
+          <svg xmlns="http://www.w3.org/2000/svg" className="size-14 text-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+              <line x1="9" y1="7" x2="15" y2="7" />
+              <line x1="9" y1="11" x2="13" y2="11" />
+            </svg>
           <p className="text-gray-500 text-sm leading-relaxed">
             Brak wpisów.<br />Zacznij od dziś!
           </p>
